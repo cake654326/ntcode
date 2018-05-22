@@ -16,7 +16,9 @@ class ntcodeServiceProvider extends ServiceProvider
     {
         //
         // include __DIR __。'/ routes.php';
+        
         $this->loadViewsFrom(__DIR__.'/views','ntcode');
+        
         $this->publishes([
             __DIR__.'/views'=>base_path('resources/views/vendor/ntcode'),
             __DIR__.'/config/ntcode.php' => config_path('ntcode.php'),

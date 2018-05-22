@@ -7,7 +7,7 @@ return [
     'im_slid' => null,
     
     'bg_width' => 240,
-    'bg_height' => 250,
+    'bg_height' => 150,
     'mark_width' => 50,
     'mark_height' => 50,
     'bg_num' => 6,
