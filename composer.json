@@ -1,6 +1,7 @@
 {
     "name": "fc/ntcode",
     "type": "library",
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-0": {
@@ -9,5 +10,17 @@
         "files": [
             "src/function.php"
         ]
+    },
+    
+    "extra": {
+    "laravel": {
+      "providers": [
+        "fc\\ntcode\\ntcodeServiceProvider"
+      ],
+      "aliases": {
+      }
     }
+  }
+  
 }
+
