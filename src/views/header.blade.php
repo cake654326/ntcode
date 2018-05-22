@@ -1,0 +1,2 @@
+<script type="text/javascript" src="{{ asset('vendor/ntcode/tn_code.js') }}?v=<?php echo rand(10000,99999)?>"></script>
+<link rel="stylesheet" type="text/css" href="{{ asset('vendor/ntcode/tn_style.css') }}?v=<?php echo rand(10000,99999)?>" />

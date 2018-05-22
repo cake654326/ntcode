@@ -1,0 +1,13 @@
+{
+    "name": "fc/ntcode",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "fc\\ntcode\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    }
+}
