@@ -15,7 +15,10 @@ php artisan vendor:publish
 ```
 <?php
 
-// use LLLntcode;
+//.........
+
+use fc\ntcode\Ntcode as LLLntcode;
+
 
 class TestController extends BaseController
 {
